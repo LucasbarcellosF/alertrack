@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="205" viewBox="0 0 25 205">
+  <g id="icons" transform="translate(-1237 -689)">
+    <rect id="Line" width="1" height="49" transform="translate(1249 814)" fill="#e9e9f0"/>
+    <rect id="Line-2" data-name="Line" width="1" height="49" transform="translate(1249 722)" fill="#e9e9f0"/>
+    <g id="Icon" transform="translate(7 180)">
+      <g id="Ellipse" transform="translate(1230 689)" fill="#fff" stroke="#ffca83" stroke-width="1">
+        <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+        <circle cx="12.5" cy="12.5" r="12" fill="none"/>
+      </g>
+    </g>
+    <g id="Icon-2" data-name="Icon" transform="translate(7 92)">
+      <g id="Ellipse-2" data-name="Ellipse" transform="translate(1230 689)" fill="#fff" stroke="#81c9ff" stroke-width="1">
+        <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+        <circle cx="12.5" cy="12.5" r="12" fill="none"/>
+      </g>
+    </g>
+    <g id="Icon-3" data-name="Icon" transform="translate(7)">
+      <g id="Ellipse-3" data-name="Ellipse" transform="translate(1230 689)" fill="#fff" stroke="#4ad991" stroke-width="1">
+        <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+        <circle cx="12.5" cy="12.5" r="12" fill="none"/>
+      </g>
+      <path id="Caminho_319" data-name="Caminho 319" d="M6.117,8.279,0,3.3l1.976-1.61,4.141,3.3L12.234,0l1.976,1.61Z" transform="translate(1236 697.829)" fill="#4ad991"/>
+    </g>
+    <path id="Caminho_447" data-name="Caminho 447" d="M670.187,1676.579V1670.5H669.5v-.868h2.062v6.942h.687v.868H669.5v-.868Zm.687-7.809a1.114,1.114,0,1,0-.859-1.085A.982.982,0,0,0,670.875,1668.769Z" transform="translate(579.059 -789.973)" fill="#ffca83"/>
+    <g id="eye" transform="translate(1242.005 787.845)">
+      <path id="Caminho_522" data-name="Caminho 522" d="M14,11a3,3,0,1,1-3-3A3,3,0,0,1,14,11Zm-1.5,0A1.5,1.5,0,1,1,11,9.5,1.5,1.5,0,0,1,12.5,11Z" transform="translate(-3.378 -5)" fill="#81c9ff" fill-rule="evenodd"/>
+      <path id="Caminho_523" data-name="Caminho 523" d="M8,3a7.9,7.9,0,0,1,7.622,6A7.9,7.9,0,0,1,8,15,7.9,7.9,0,0,1,.378,9,7.9,7.9,0,0,1,8,3ZM8,13.667A6.575,6.575,0,0,1,1.742,9,6.53,6.53,0,0,1,14.258,9,6.575,6.575,0,0,1,8,13.667Z" transform="translate(-0.378 -3)" fill="#81c9ff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

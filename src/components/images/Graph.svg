@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="931.5" height="331" viewBox="0 0 931.5 331">
+  <defs>
+    <filter id="Card_Base" x="0" y="0" width="931.5" height="331" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#43425d" flood-opacity="0.106"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2cd9c5" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#2e5bff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c54ff"/>
+      <stop offset="1" stop-color="#8c54ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Card_01" data-name="Card / 01" transform="translate(9 7)">
+    <g transform="matrix(1, 0, 0, 1, -9, -7)" filter="url(#Card_Base)">
+      <rect id="Card_Base-2" data-name="Card Base" width="913.5" height="313" transform="translate(9 7)" fill="#fff"/>
+    </g>
+    <text id="Sales" transform="translate(800.437 84.618)" fill="#212529" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Brasil</tspan></text>
+    <text id="Revenue" transform="translate(800.437 70.618)" fill="#212529" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">México</tspan></text>
+    <rect id="Rectangle" width="20" height="2.8" transform="translate(740.413 82.685)" fill="#2cd9c5"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="20" height="2.8" transform="translate(740.413 67.685)" fill="#826af9"/>
+    <path id="Line_8" data-name="Line 8" d="M0,.467H665.423" transform="translate(49.5 65.626)" fill="none" stroke="#e9ebf1" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <path id="Line_8_Copy" data-name="Line 8 Copy" d="M0,.467H665.423" transform="translate(49.5 116.034)" fill="none" stroke="#e9ebf1" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <path id="Line_8_Copy_2" data-name="Line 8 Copy 2" d="M0,.467H665.423" transform="translate(49.5 215.919)" fill="none" stroke="#e9ebf1" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <path id="Line_8_Copy_4" data-name="Line 8 Copy 4" d="M0,.467H665.423" transform="translate(49.5 165.51)" fill="none" stroke="#e9ebf1" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <path id="Line_8_Copy_3" data-name="Line 8 Copy 3" d="M0,.467H665.408" transform="translate(49.5 265.394)" fill="none" stroke="#e9ebf1" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <g id="Chart_Figure" data-name="Chart Figure" transform="translate(70.092 65)">
+      <g id="Blue" transform="translate(0)">
+        <path id="Path_5" data-name="Path 5" d="M0,150.5,63.114,118l65.254,19.5,64.719-58L256.2,7.5l65.254,16L384.034,73l65.254,31,64.184-33,62.044-12.5L641.3,0V223H.529Z" transform="translate(4 3)" fill="url(#linear-gradient)"/>
+        <path id="Path_5-2" data-name="Path 5" d="M0,150.5,63.114,118l65.254,19.5,64.719-58L256.2,7.5l65.254,16L384.034,73l65.254,31,64.184-33,62.044-12.5L641.3,0" transform="translate(4 3)" fill="none" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2"/>
+        <g id="Oval" transform="translate(0 149)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-2" data-name="Oval" transform="translate(63.112 118)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-3" data-name="Oval" transform="translate(128.363 136)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-4" data-name="Oval" transform="translate(256.726 7)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-5" data-name="Oval" transform="translate(191.475 80)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-6" data-name="Oval" transform="translate(320.908 22)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-7" data-name="Oval" transform="translate(384.02 72)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-8" data-name="Oval" transform="translate(450.341 103)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-9" data-name="Oval" transform="translate(513.453 70)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-10" data-name="Oval" transform="translate(575.495 57)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-11" data-name="Oval" transform="translate(641.816)" fill="#fff" stroke="#2cd9c5" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+      </g>
+      <g id="Purple" transform="translate(0 52)">
+        <path id="Path_6" data-name="Path 6" d="M0,132.5l63.116-6L126.233,103l63.651,7.5,65.791-43L318.792,51l66.326,54.5,61.512-13.75L512.42,115.5l64.721-68L640.793,0V170.507H0Z" transform="translate(4.512 4)" opacity="0.1" fill="url(#linear-gradient-2)"/>
+        <path id="Path_6-2" data-name="Path 6" d="M0,132.5l63.116-6L126.233,103l63.651,7.5,65.791-43L318.792,51l66.326,54.5,61.512-13.75L512.42,115.5l64.721-68L640.793,0" transform="translate(4.512 4)" fill="none" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2"/>
+        <g id="Oval-12" data-name="Oval" transform="translate(641.816)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-13" data-name="Oval" transform="translate(513.453 115)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-14" data-name="Oval" transform="translate(385.089 105)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-15" data-name="Oval" transform="translate(448.201 92)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-16" data-name="Oval" transform="translate(318.768 52)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-17" data-name="Oval" transform="translate(256.726 67)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-18" data-name="Oval" transform="translate(190.405 110)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-19" data-name="Oval" transform="translate(127.293 103)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-20" data-name="Oval" transform="translate(63.112 126)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+        <g id="Oval-21" data-name="Oval" transform="translate(0 133)" fill="#fff" stroke="#8c54ff" stroke-miterlimit="10" stroke-width="2">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Line_9" data-name="Line 9" d="M1.1,0V201.635" transform="translate(69 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Line_9_Copy" data-name="Line 9 Copy" d="M1.1,0V201.635" transform="translate(142.412 65.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <path id="Line_9_Copy_2" data-name="Line 9 Copy 2" d="M1.1,0V201.635" transform="translate(213.58 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Line_9_Copy_3" data-name="Line 9 Copy 3" d="M1.1,0V201.635" transform="translate(284.762 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Line_9_Copy_4" data-name="Line 9 Copy 4" d="M1.1,0V201.635" transform="translate(355.944 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Line_9_Copy_5" data-name="Line 9 Copy 5" d="M1.1,0V201.635" transform="translate(427.126 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Line_9_Copy_6" data-name="Line 9 Copy 6" d="M1.1,0V201.635" transform="translate(498.307 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Line_9_Copy_7" data-name="Line 9 Copy 7" d="M1.1,0V201.635" transform="translate(569.489 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Line_9_Copy_8" data-name="Line 9 Copy 8" d="M1.1,0V201.635" transform="translate(640.671 64.692)" fill="none" stroke="#e9ebf1" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <text id="Notificações" transform="matrix(0.017, -1, 1, 0.017, 43.644, 181.58)" fill="#4d4f5c" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Notificações</tspan></text>
+    <text id="WhatsApp_-_Últimas_24_horas" data-name="WhatsApp - Últimas 24 horas" transform="translate(20.5 37.5)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">WhatsApp - Últimas 24 horas</tspan></text>
+  </g>
+</svg>
