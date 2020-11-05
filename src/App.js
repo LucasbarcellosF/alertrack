@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Graph from './components/images/Graph.svg'
 import Check from './components/images/Check.svg'
 import PieChart from './components/images/PieChart.svg'
@@ -6,7 +7,9 @@ import Sidebar from './components/images/Sidebar.svg'
 import Setting from './components/images/Setting.svg'
 import Alert from './components/images/Alert.svg'
 
+import Activity from './components/base/ActivityBar'
 import Navbar from './components/base/Navbar'
+
 import ReactTooltip from 'react-tooltip'
 
 export default function App() {
@@ -72,9 +75,18 @@ export default function App() {
           </div>
         </section>
 
-        <div className="mt-16 max-w-5xl bg-white mx-auto px-4 lg:px-0">
-          <label>Seção de Atividade</label>
-        </div>
+        <section className="mt-16 max-w-5xl bg-white mx-auto">
+          <div className="pt-6 px-12">
+            <label>Tempo de Atividades dos Serviços</label>
+          </div>
+
+          <div className="px-10 py-10">
+            <div className="inline-flex -space-x-4">
+              <Activity />
+            </div>
+            <p className="text-sm text-gray-500 ml-2">90 dias atrás</p>
+          </div>
+        </section>
 
         <section id="incidentes" className="max-w-5xl mx-auto mt-20 px-4 lg:px-0">
           <label>Últimos Incidentes</label>
