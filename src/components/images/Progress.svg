@@ -1,0 +1,18 @@
+    <svg id="Componente_208_1" data-name="Componente 208 – 1" xmlns="http://www.w3.org/2000/svg" width="163" height="10" viewBox="0 0 163 10">
+      <g id="scroll" transform="translate(-498 -421)">
+        <circle id="Elipse_32" data-name="Elipse 32" cx="5" cy="5" r="5" transform="translate(498 421)" fill="#43425d"/>
+        <circle id="Elipse_33" data-name="Elipse 33" cx="5" cy="5" r="5" transform="translate(515 421)" fill="#2f2e50" opacity="0.3"/>
+        <circle id="Elipse_34" data-name="Elipse 34" cx="5" cy="5" r="5" transform="translate(532 421)" fill="#2f2e50" opacity="0.3"/>
+        <circle id="Elipse_35" data-name="Elipse 35" cx="5" cy="5" r="5" transform="translate(549 421)" fill="#2f2e50" opacity="0.3"/>
+      </g>
+      <g id="scroll-2" data-name="scroll" transform="translate(-430 -421)">
+        <circle id="Elipse_32-2" data-name="Elipse 32" cx="5" cy="5" r="5" transform="translate(498 421)" fill="#2f2e50" opacity="0.299"/>
+        <circle id="Elipse_33-2" data-name="Elipse 33" cx="5" cy="5" r="5" transform="translate(515 421)" fill="#2f2e50" opacity="0.3"/>
+        <circle id="Elipse_34-2" data-name="Elipse 34" cx="5" cy="5" r="5" transform="translate(532 421)" fill="#2f2e50" opacity="0.3"/>
+        <circle id="Elipse_35-2" data-name="Elipse 35" cx="5" cy="5" r="5" transform="translate(549 421)" fill="#2f2e50" opacity="0.3"/>
+      </g>
+      <g id="scroll-3" data-name="scroll" transform="translate(-362 -421)">
+        <circle id="Elipse_33-3" data-name="Elipse 33" cx="5" cy="5" r="5" transform="translate(515 421)" fill="#2f2e50" opacity="0.3"/>
+        <circle id="Elipse_50" data-name="Elipse 50" cx="5" cy="5" r="5" transform="translate(498 421)" fill="#2f2e50" opacity="0.3"/>
+      </g>
+    </svg>

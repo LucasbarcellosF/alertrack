@@ -1,75 +1,32 @@
 import React from 'react'
 
 export default function Activity() {
+  const cores = {
+    0: '#4ad991',
+    1: '#FFDA83',
+    2: '#FF215D'
+  }
 
+  const dataTips = {
+    64: '02 de Agosto, 2020 - Incidente Energético',
+    60: '31 de Junho, 2020 - WhatsApp Interrompido'
+  }
+
+  const eventos = [
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 0, 0, 1
+  ]
+  
+  const Eventos = function() {
+    return (
+      <>
+        {eventos.map((evento, index) => <ActivityBar dataTip={dataTips[index]} fill={cores[evento]}/>)}
+      </>
+    )
+  } 
+  
   return (
-    <div className="inline-flex -space-x-4 h-full flex-wrap lg:flex-no-wrap mx-auto">
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#FFDA83"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#FFDA83"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#FF215D"/>
-      <ActivityBar fill="#FF215D" dataTip="31 de Junho, 2020 - WhatsApp Interrompido"/>
-      <ActivityBar fill="#FFDA83"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#4ad991"/>
-      <ActivityBar fill="#FFDA83" dataTip="02 de Agosto - Incidente Energético"/>
+    <div className="inline-flex -space-x-4 h-full md:overflow-hidden">
+      <Eventos />
     </div>
   )
 }
