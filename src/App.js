@@ -11,10 +11,16 @@ import Activity from './components/base/ActivityBar'
 import Navbar from './components/base/Navbar'
 
 import ReactTooltip from 'react-tooltip'
+import { Helmet } from 'react-helmet'
 
 export default function App() {
   return (
     <>
+      <Helmet>
+        <title>Status Alertrack</title>
+        <meta name="description" content="Controle de estado de operações" />
+      </Helmet>
+
       <ReactTooltip place="right"/>
       <Navbar/>  
       <div className="bg-gray-200 py-4">
@@ -80,10 +86,8 @@ export default function App() {
             <label>Tempo de Atividades dos Serviços</label>
           </div>
 
-          <div className="px-10 py-10">
-            <div className="inline-flex -space-x-4">
+          <div className="px-10 py-10 w-auto">
               <Activity />
-            </div>
             <p className="text-sm text-gray-500 ml-2">90 dias atrás</p>
           </div>
         </section>
@@ -97,7 +101,7 @@ export default function App() {
             <div className="flex inline-flex my-10">
 
               <div className="mr-8 md:self-start">
-                <img className="w-10 md:w-8" src={Sidebar} alt="" />
+                <img className="w-12 md:w-8" src={Sidebar} alt="" />
               </div>
 
               <div className="w-full">

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Activity() {
 
   return (
-    <>
+    <div className="inline-flex -space-x-4 h-full flex-wrap lg:flex-no-wrap mx-auto">
       <ActivityBar fill="#4ad991"/>
       <ActivityBar fill="#4ad991"/>
       <ActivityBar fill="#4ad991"/>
@@ -70,7 +70,7 @@ export default function Activity() {
       <ActivityBar fill="#4ad991"/>
       <ActivityBar fill="#4ad991"/>
       <ActivityBar fill="#FFDA83" dataTip="02 de Agosto - Incidente Energético"/>
-    </>
+    </div>
   )
 }
 
