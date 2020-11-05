@@ -3,12 +3,16 @@ import Graph from './components/images/Graph.svg'
 import Check from './components/images/Check.svg'
 import PieChart from './components/images/PieChart.svg'
 import Sidebar from './components/images/Sidebar.svg'
+import Setting from './components/images/Setting.svg'
+import Alert from './components/images/Alert.svg'
 
 import Navbar from './components/base/Navbar'
+import ReactTooltip from 'react-tooltip'
 
 export default function App() {
   return (
     <>
+      <ReactTooltip place="right"/>
       <Navbar/>  
       <div className="bg-gray-200 py-4">
         <div className="mt-16 max-w-5xl mx-auto px-4 lg:px-0 object-cover">
@@ -32,30 +36,36 @@ export default function App() {
             <Services
               name="SacDigital"
               img={Check}
+              dataTip="Operando"
               hasBorder
             />
             <Services
               name="Panfleto.Online"
               img={Check}
+              dataTip="Operando"
               hasBorder
             />
             <Services
               name="SMSIdeal"
-              img={Check}
+              img={Setting}
+              dataTip="Em manutenção"
               hasBorder
             />
             <Services
               name="ConsultaIdeal"
-              img={Check}
+              img={Alert}
+              dataTip="Oscilando"
               hasBorder
             />
             <Services
               name="WhatsApp"
               img={Check}
+              dataTip="Operando"
               hasBorder
             />
             <Services
               name="WhatsApp Business API"
+              dataTip="Operando"
               img={Check}
             />
 
@@ -156,12 +166,12 @@ function Incidentes(props) {
 }
 
 function Services(props) {
-  const { name, img, hasBorder } = props
+  const { name, img, hasBorder, dataTip } = props
   
   return (
     <div className={`${hasBorder ? 'border-b' : 'border-b-0'} mt-3 inline-flex justify-between w-full pb-5 `}>
       <span className="text-gray-600">{name}</span>
-      <img className="w-6 h-6" src={img} alt="" />
+      <img className="w-6 h-6" src={img} alt="" data-tip={dataTip}/>
     </div>
 
   )

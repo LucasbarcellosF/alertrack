@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="Icon.BG" cx="12.5" cy="12.5" r="12.5" fill="#fff4e5"/>
+  <g id="alert-circle-exc" transform="translate(5 5)">
+    <path id="Caminho_257" data-name="Caminho 257" d="M7.5,0A7.5,7.5,0,1,0,15,7.5,7.522,7.522,0,0,0,7.5,0Zm0,11.25a.886.886,0,0,1-.937-.937A.886.886,0,0,1,7.5,9.375a.886.886,0,0,1,.938.938A.886.886,0,0,1,7.5,11.25Zm.938-2.812H6.563V3.75H8.438Z" fill="#ffca83"/>
+  </g>
+</svg>
