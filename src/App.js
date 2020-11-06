@@ -24,7 +24,7 @@ export default function App() {
       <Navbar/>  
 
       <div className="bg-gray-200">
-        <div className=" py-4 mx-auto max-w-5xl">
+        <div className="py-4 mx-auto max-w-5xl">
 
           <div className="mt-16 max-w-5xl px-4 lg:px-0">
             <img className="w-full object-cover" src={Graph} alt="Grafico" />
@@ -42,7 +42,7 @@ export default function App() {
             <Services/>
           </section>
 
-          <section className="mt-16 max-w-5xl bg-white  px-4 lg:px-0">
+          <section className="mt-16 max-w-5xl bg-white px-4 lg:px-0">
             <div className="pt-6 px-12">
               <label>Tempo de Atividades dos Serviços</label>
             </div>
@@ -53,13 +53,13 @@ export default function App() {
             </div>
           </section>
 
-          <section id="incidentes" className="max-w-5xl  mt-20 px-4 lg:px-0">
+          <section id="incidentes" className="max-w-5xl mt-20 px-4 lg:px-0">
             <label>Últimos Incidentes</label>
 
             <div className="bg-white px-4 md:px-10 lg:px-16 py-8 mt-6">
               <label className="font-bold text-sm">02 de Agosto 2020</label>
 
-              <div className="flex inline-flex my-10">
+              <div className="inline-flex my-10">
 
                 <div className="mr-8 md:self-start">
                   <img className="w-12 md:w-8" src={Sidebar} alt="" />
@@ -89,10 +89,10 @@ export default function App() {
               </div>
             </div>
 
-            <div className="bg-white px-4 py-4 md:px-16 md:py-8 ">
+            <div className="bg-white px-4 py-4 md:px-16 md:py-8">
               <label className="font-bold text-sm">31 de Junho 2020</label>
 
-              <div className="flex inline-flex my-10 border-b pb-8">
+              <div className="inline-flex my-10 border-b pb-8">
 
                 <div className="mr-8 md:self-start">
                   <img className="w-10 md:w-8" src={Sidebar} alt="" />
